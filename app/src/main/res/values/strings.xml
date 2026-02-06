@@ -3,5 +3,7 @@
     <string name="bottom_nav_notifications">Notifications</string>
     <string name="bottom_nav_filters">Filters</string>
     <string name="bottom_nav_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This Is Notifications Fragment</string>
 
 </resources>
