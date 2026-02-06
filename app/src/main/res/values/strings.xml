@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Notification History</string>
+    <string name="bottom_nav_notifications">Notifications</string>
+    <string name="bottom_nav_filters">Filters</string>
+    <string name="bottom_nav_settings">Settings</string>
+
 </resources>
