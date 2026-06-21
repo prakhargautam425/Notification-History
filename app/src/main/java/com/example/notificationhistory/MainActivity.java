@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        startActivity(new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"));
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
