@@ -6,6 +6,16 @@ import android.util.Log;
 
 public class MyNotificationListener extends NotificationListenerService
 {
+//    private MyListener listener;
+//    public MyNotificationListener(MyListener listener)
+//    {
+//        this.listener=listener;
+//    }
+//    public void callFunction(String a,String b,String c)
+//    {
+//        listener.showText(a,b,c);
+//    }
+
     @Override
     public void onNotificationPosted(StatusBarNotification sbn)
     {
@@ -18,6 +28,9 @@ public class MyNotificationListener extends NotificationListenerService
         Log.d("NOTI","Title: "+title);
         Log.d("NOTI","Text: "+text);
 
+//        callFunction(packageName,title,text);
+//        MainActivity ob=new MainActivity();
+//        MainActivity.showText(packageName,title,text);
     }
 
     @Override

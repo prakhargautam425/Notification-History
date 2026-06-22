@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
             return loadFragment(fragment);
         });
+//        showText("wap","noti","heeloo");
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -91,4 +93,10 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
+//    @Override
+//    public void showText(String app,String title,String text)
+//    {
+//        TextView textView=findViewById(R.id.notificationInfo);
+//        textView.setText(app+"\n"+title+"\n"+text);
+//    }
 }
